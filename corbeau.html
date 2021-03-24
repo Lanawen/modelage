@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+      <meta charset="utf-8">
+      <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+      <a-scene>
+
+        <a-assets>
+          <img id="fond" src="fond.jpg">
+          <a-asset-item id="corbeau" src="Corbeau_V1.glb"></a-asset-item>
+
+        </a-assets>
+
+        <a-entity gltf-model="#corbeau" modify-materials rotation="0 25 0"
+                  position="0 -20 -40">
+                </a-entity>
+
+      </a-scene>
+    </body>
+
+</html>
