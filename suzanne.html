@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
     <head>
@@ -12,8 +11,13 @@
 
         <a-assets>
           <img id="fond" src="fond.jpg">
+          <a-asset-item id="suzanne" src="suzanne.glb"></a-asset-item>
 
         </a-assets>
+
+          <a-entity gltf-model="#suzanne" modify-materials>
+                    rotation="-90 0 0"
+                  </a-entity>
 
         <a-box geometry="primitive: cylinder; height: 1; radius: 2"
                position="0 1 0"
